@@ -6,7 +6,7 @@ Building fast is table stakes now. Anyone can generate a screen.
 What I do is design the thing behind the screen so it doesn't fall over — and then actually operate it.
 
 - 🏗️ CTO @ YAYLABS · Co-founder @ YayPlanet — built **Oildealer solo**: escrow-backed B2B reverse-auction platform, **3 client apps (customer web+mobile, vendor, admin), live on both app stores**, 5 microservices on Kubernetes
-- 🤖 **I run my company AI-native.** An in-house AI agent (**Hermes**) lives in Slack: it auto-tags documents into Notion, routes planning tickets to developers, and closes the loop — deploy done → report back → ticket closed → patch notes generated. **Slack is the whole company's single gateway.** Now building the same AX pipeline for an investment firm.
+- 🤖 **I run my company AI-native.** An in-house AI agent (**Hermes**) lives in Slack: it auto-tags documents into Notion, routes planning tickets to developers, and closes the loop — deploy done → report back → ticket closed → patch notes generated. **Slack is the whole company's single gateway.** Now delivering the same **AX (AI transformation) pipelines for external clients — a hospital and an investment firm**.
 - 🎨 I build without designers. Not "AI-looking" UI — I wrote a design system that teaches AI design *judgment*, and open-sourced it: **[styleseed](https://github.com/bitjaru/styleseed)** ![GitHub stars](https://img.shields.io/github/stars/bitjaru/styleseed?style=flat&logo=github) — **800+ organic stars, zero marketing, still climbing**
 - 📊 ML in production, not in notebooks — LSTM price model at 0.74% MAPE, beat GARCH/VAR/XGBoost
 - ⛓️ Web3 at scale — RWA bond protocol · transaction forwarding API for 300K game users at 100+ TPS · Unity WebGL game shipped inside **both Telegram and LINE mini-apps**
@@ -30,7 +30,7 @@ What I do is design the thing behind the screen so it doesn't fall over — and 
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Depth, not just breadth**      | Led a legacy (JSP/jQuery/.NET) → React SPA migration on a live commerce platform. Page load −60%, DB load −40%. Nothing broke.                                   |
 | **0→1 with architecture**        | Took a product from "we have an idea" to shipped MVP as a contractor — auth, payments, points, raffle engine, community, admin.                                  |
-| **AI-native operations**         | Built the company's internal AI infra myself: a Slack-resident agent (Hermes) that tags & archives docs to Notion, generates status reports, and runs the ticket → dev → deploy → patch-note pipeline. Every employee works through Slack as the gateway. |
+| **AI-native operations**         | Built the company's internal AI infra myself: a Slack-resident agent (Hermes) that tags & archives docs to Notion, generates status reports, and runs the ticket → dev → deploy → patch-note pipeline. Every employee works through Slack as the gateway. Now replicating this for client orgs (hospital · investment firm). |
 | **Design without a designer**    | [styleseed](https://github.com/bitjaru/styleseed) — 74 design rules, 48 components, 7 brand skins. The tool I built to fix the UI that AI coding tools generate. |
 | **Infra that stays up**          | Kubernetes, zero-downtime deploys, CI/CD, Saga-pattern event-driven orchestration. Running today, not a demo.                                                    |
 | **AI as a pipeline, not a demo** | Agent workflows that scan → analyze → render → package, with a human gate before publish.                                                                        |
@@ -57,7 +57,7 @@ Corporate site included: **[oildealer.co.kr](https://oildealer.co.kr)** — blog
 The reason I say "AI-native" and mean it. A Slack-resident agent the whole company actually works through:
 documents get auto-tagged and archived into Notion · planning tickets get routed to developers · when a deploy finishes, the planner gets a completion report, the ticket closes itself, and patch notes are generated.
 Connected pipelines: Slack ↔ Notion ↔ Google Workspace ↔ CI/CD. Humans keep the decisions; the agent keeps the state.
-This experience is now being applied as an **AX (AI transformation) pipeline build for an investment firm**.
+This experience is now applied externally: **AX (AI transformation) pipeline builds underway for a hospital and an investment firm**.
 
 ### YieldCore — on-chain RWA bond investment protocol
 
@@ -149,7 +149,7 @@ A fortune-telling app where the AI character speaks first — planning, characte
 
 ### 제가 남들과 다른 지점
 
-**회사를 AI 네이티브로 운영합니다** 슬랙에 상주하는 사내 AI 에이전트(**Hermes**)를 직접 구축했습니다. 문서가 자동 태깅돼 Notion에 아카이빙되고, 기획 티켓이 개발자에게 전달되고, 배포가 끝나면 기획자에게 완료 보고 → 티켓 완료 처리 → 패치노트 생성까지 자동으로 이어집니다. **전 직원이 슬랙 하나를 게이트웨이로 일합니다.** 이 경험으로 현재 투자회사의 내부 AX 파이프라인 구축도 수행 중입니다.
+**회사를 AI 네이티브로 운영합니다** 슬랙에 상주하는 사내 AI 에이전트(**Hermes**)를 직접 구축했습니다. 문서가 자동 태깅돼 Notion에 아카이빙되고, 기획 티켓이 개발자에게 전달되고, 배포가 끝나면 기획자에게 완료 보고 → 티켓 완료 처리 → 패치노트 생성까지 자동으로 이어집니다. **전 직원이 슬랙 하나를 게이트웨이로 일합니다.** 이 경험으로 현재 **병원과 투자회사, 두 곳의 AX(AI 전환) 파이프라인 구축**을 수행 중입니다.
 
 **기술 깊이 — 얕게 넓은 게 아니라 깊게 넓습니다** 이베이코리아에서 운영 중인 커머스의 레거시(JSP/jQuery/.NET) 화면을 React SPA로 이관하는 작업을 리드했습니다. 페이지 로드 60% 개선, DB 부하 40% 감소, 기존 동작은 그대로.
 
@@ -168,7 +168,7 @@ A fortune-telling app where the AI character speaks first — planning, characte
 고객용(웹 전용·앱 전용)·벤더용·관리자용 **3종 앱을 전부 단독 개발**해 iOS·Android **양대 스토어에 정식 출시·운영 중**(심사·반려 대응·버전 배포까지 혼자). 5개 마이크로서비스를 쿠버네티스 무중단 운영. MongoDB Time Series + Redis, Playwright 시장 데이터 파이프라인, GPT-4o 뉴스 에이전트. 자체 LSTM 가격 예측 **MAPE 0.74% · 방향 정확도 88%** (GARCH·VAR·VECM·XGBoost 대비 우위). 주유소 POS·탱크 센서 동기화 Windows 에이전트. **디자이너 0명.** 기업 사이트 [oildealer.co.kr](https://oildealer.co.kr)도 직접 제작(블로그 연동, AI 에셋 파이프라인).
 
 **Hermes — AI 네이티브 사내 인프라** (매일 실사용 중)
-슬랙 상주 에이전트가 문서 자동 태깅→Notion 아카이빙, 업무 현황 리포트, 기획 티켓 전달→개발·배포→완료 보고→패치노트 생성 파이프라인을 운영합니다. Slack ↔ Notion ↔ Google ↔ CI/CD 연결. 판단은 사람이, 상태 관리는 에이전트가. 이 구조를 투자회사 내부 AX 파이프라인으로 이식하는 업무도 수행 중입니다.
+슬랙 상주 에이전트가 문서 자동 태깅→Notion 아카이빙, 업무 현황 리포트, 기획 티켓 전달→개발·배포→완료 보고→패치노트 생성 파이프라인을 운영합니다. Slack ↔ Notion ↔ Google ↔ CI/CD 연결. 판단은 사람이, 상태 관리는 에이전트가. 이 구조를 병원·투자회사의 AX 파이프라인으로 이식하는 업무를 수행 중입니다.
 
 **YieldCore — 온체인 RWA 채권 투자 프로토콜**
 USDC 예치 → 실물 채권 투자 구조의 Solidity 컨트랙트(프록시/비프록시), 대출 집행 24시간 타임락·멀티시그·역할 분리. Next.js 투자자 대시보드(TVL/APY·딜·포트폴리오)와 온체인 이벤트를 24/7 감시해 Slack으로 알리는 모니터링까지. 기업 사이트 [yieldcorelabs.com](https://yieldcorelabs.com)도 직접 제작(영문, Notion 연동 콘텐츠 파이프라인).
