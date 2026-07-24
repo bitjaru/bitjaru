@@ -18,7 +18,7 @@ What I do is design the thing behind the screen so it doesn't fall over — and 
 
 | | |
 |---|---|
-| <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_B2B_%EC%9C%A0%EB%A5%98_%EA%B3%B5%EA%B8%89%EB%A7%9D_%EC%97%AD%EA%B2%BD%EB%A7%A4_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95_%E2%80%94_%EA%B8%B0%ED%9A%8D%C2%B75%EA%B0%9C__ca9996ff4b41b55346f4.jpeg" alt="Oildealer" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_AI_%EC%BD%94%EB%94%A9_%EB%8F%84%EA%B5%AC%EC%9A%A9_%EB%94%94%EC%9E%90%EC%9D%B8_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%97%94%EC%A7%84_%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4_%EA%B0%9C%EB%B0%9C___2989cf3af4fa2829790a.jpeg" alt="styleseed" /> |
+| <img src="https://cdn.wishket.com/portfolio/images/bitjaru_B2B_%EC%9C%A0%EB%A5%98_%EA%B3%B5%EA%B8%89%EB%A7%9D_%EC%97%AD%EA%B2%BD%EB%A7%A4_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95_%E2%80%94_%EA%B8%B0%ED%9A%8D%C2%B75%EA%B0%9C__dbf7c839cf7040cd0fee.png" alt="Oildealer" /> | <img src="https://opengraph.githubassets.com/1/bitjaru/styleseed" alt="styleseed" /> |
 | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_RWA_%EC%8B%A4%EB%AC%BC%EC%9E%90%EC%82%B0_%EC%9C%A0%EB%8F%99%ED%99%94_DeFi_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95__Yiel_1c6e0d7792599eb6f021.jpeg" alt="YieldCore" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_Unity_%EA%B8%B0%EB%B0%98_Web3_%EA%B2%8C%EC%9E%84_%EA%B0%9C%EB%B0%9C_%EB%B0%8F_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%C2%B7LIN_d237c9c22d99b06ebda1.jpeg" alt="FANANAS" /> |
 | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8_x_TON_%EA%B2%8C%EC%9E%84%ED%8C%8C%EC%9D%B4_%EB%9F%B0%EC%B9%98%ED%8C%A8%EB%93%9C_%EA%B5%AC%EC%B6%95__NNN__84053d79bb79de65b374.jpeg" alt="NNN" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%EB%A9%80%ED%8B%B0_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EC%85%80%EB%9F%AC_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%86%B5%ED%95%A9_B2B_SaaS_%EA%B5%AC%EC%B6%95___3981da0315be5888494c.jpeg" alt="Penguinboard" /> |
 
@@ -41,7 +41,7 @@ What I do is design the thing behind the screen so it doesn't fall over — and 
 
 ### Oildealer — escrow-backed B2B reverse-auction platform (built solo, live on both stores)
 
-<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_B2B_%EC%9C%A0%EB%A5%98_%EA%B3%B5%EA%B8%89%EB%A7%9D_%EC%97%AD%EA%B2%BD%EB%A7%A4_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95_%E2%80%94_%EA%B8%B0%ED%9A%8D%C2%B75%EA%B0%9C__ca9996ff4b41b55346f4.jpeg" alt="Oildealer" width="720" />
+<img src="https://cdn.wishket.com/portfolio/images/bitjaru_B2B_%EC%9C%A0%EB%A5%98_%EA%B3%B5%EA%B8%89%EB%A7%9D_%EC%97%AD%EA%B2%BD%EB%A7%A4_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95_%E2%80%94_%EA%B8%B0%ED%9A%8D%C2%B75%EA%B0%9C__dbf7c839cf7040cd0fee.png" alt="Oildealer" width="720" />
 
 CTO. Planning → architecture → development → design → operations. **One person, end to end.**
 
@@ -54,14 +54,14 @@ Corporate site included: **[oildealer.co.kr](https://oildealer.co.kr)** — blog
 
 ### Hermes — AI-native company infrastructure (in production, daily)
 
-The reason I say "AI-native" and mean it. A Slack-resident agent the whole company actually works through:
-documents get auto-tagged and archived into Notion · planning tickets get routed to developers · when a deploy finishes, the planner gets a completion report, the ticket closes itself, and patch notes are generated.
-Connected pipelines: Slack ↔ Notion ↔ Google Workspace ↔ CI/CD. Humans keep the decisions; the agent keeps the state.
-This experience is now applied externally: **AX (AI transformation) pipeline builds underway for a hospital and an investment firm**.
+Slack is the company's operating system — not a metaphor, the actual daily workflow:
+a planner posts a request and the agent acknowledges it **in-thread** · documents get auto-tagged and archived into Notion · dev progress is reported at the level of **ticket numbers, branch names and commit hashes** ("verified in code", not "probably done") · the AI dev-session bot posts `[in-progress]` updates (PR merged → deploying → tests passing) and closes with `[done]` — production live, **patch notes auto-generated back to the planner** · missing artifacts (deploy URL, QA results) are chased by the agent, not by humans.
+Channels are designed on purpose: planning↔dev handoff · product specs · ops · alert severity tiers · **a dedicated channel per AX client**. Humans keep the decisions; the agent keeps the state.
+Now shipping the same loop externally as **AX (AI transformation) for two clients**: a **hospital** — marketing-intelligence pipeline on official Naver/YouTube APIs (keyword · ad-creative · content-trend collection with medical-ad compliance guardrails) plus an **AI-citation back-tracking loop** (trace which sources AI assistants cite → find gaps where competitors are cited and you aren't → prescribe content → re-measure) — and an **investment firm** (internal operations AX).
 
 ### YieldCore — on-chain RWA bond investment protocol
 
-<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_RWA_%EC%8B%A4%EB%AC%BC%EC%9E%90%EC%82%B0_%EC%9C%A0%EB%8F%99%ED%99%94_DeFi_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95__Yiel_1c6e0d7792599eb6f021.jpeg" alt="YieldCore" width="720" />
+<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_RWA_%EC%8B%A4%EB%AC%BC%EC%9E%90%EC%82%B0_%EC%9C%A0%EB%8F%99%ED%99%94_DeFi_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95__Yiel_1c6e0d7792599eb6f021.jpeg" alt="YieldCore" width="380" />
 
 Solidity contracts (proxy & non-proxy variants) where investors deposit USDC against real-world bond deals — deposit/withdraw hub, deal vaults, loan registry, P2P share marketplace. 24h timelock on loan execution, multisig, role separation.
 Next.js investor dashboard (TVL/APY, deals, portfolio) and a Node.js monitor watching on-chain events 24/7 with Slack alerts — fund movements, pause events, payout reminders.
@@ -69,7 +69,7 @@ Corporate site: **[yieldcorelabs.com](https://yieldcorelabs.com)** — English-f
 
 ### FANANAS — Unity WebGL game on Telegram & LINE mini-apps
 
-<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_Unity_%EA%B8%B0%EB%B0%98_Web3_%EA%B2%8C%EC%9E%84_%EA%B0%9C%EB%B0%9C_%EB%B0%8F_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%C2%B7LIN_d237c9c22d99b06ebda1.jpeg" alt="FANANAS" width="720" />
+<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_Unity_%EA%B8%B0%EB%B0%98_Web3_%EA%B2%8C%EC%9E%84_%EA%B0%9C%EB%B0%9C_%EB%B0%8F_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%C2%B7LIN_d237c9c22d99b06ebda1.jpeg" alt="FANANAS" width="380" />
 
 Solitaire-based Web3 game: Unity (C#) → WebGL build, shipped inside **both Telegram and LINE mini-apps**.
 Kotlin middleware bridging game score ↔ platform identity ↔ on-chain settlement. Running on Kubernetes.
@@ -77,7 +77,7 @@ Mission & reward logic is a specialty: completion judgment → reward grant → 
 
 ### NNN — Telegram × TON gamefi launchpad
 
-<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8_x_TON_%EA%B2%8C%EC%9E%84%ED%8C%8C%EC%9D%B4_%EB%9F%B0%EC%B9%98%ED%8C%A8%EB%93%9C_%EA%B5%AC%EC%B6%95__NNN__84053d79bb79de65b374.jpeg" alt="NNN" width="720" />
+<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8_x_TON_%EA%B2%8C%EC%9E%84%ED%8C%8C%EC%9D%B4_%EB%9F%B0%EC%B9%98%ED%8C%A8%EB%93%9C_%EA%B5%AC%EC%B6%95__NNN__84053d79bb79de65b374.jpeg" alt="NNN" width="380" />
 
 Launchpad backend (Node/Express, layered), TON smart contracts, Telegram mini-app frontend, partner-game integration API.
 Probability-driven mystery box engine with externalized probability tables. Weekly reward distribution via cron, with recovery path on failed payouts.
@@ -90,9 +90,15 @@ Sidesteps nonce collisions and rate limits by queueing instead of hammering the 
 
 ### Penguinboard — multi-platform seller data SaaS
 
-<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%EB%A9%80%ED%8B%B0_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EC%85%80%EB%9F%AC_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%86%B5%ED%95%A9_B2B_SaaS_%EA%B5%AC%EC%B6%95___3981da0315be5888494c.jpeg" alt="Penguinboard" width="720" />
+<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%EB%A9%80%ED%8B%B0_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EC%85%80%EB%9F%AC_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%86%B5%ED%95%A9_B2B_SaaS_%EA%B5%AC%EC%B6%95___3981da0315be5888494c.jpeg" alt="Penguinboard" width="380" />
 
 B2B SaaS unifying seller data across 9 commerce platforms — with a **Chrome Extension (MV3) collection engine**: XHR/Fetch interceptors, session keep-alive, verified live against real seller admin consoles.
+
+### OHTTO — wish-based social commerce (contracted MVP, delivered)
+
+<img src="ohtto-app.png" alt="OHTTO" width="280" />
+
+Took it on with no plans and no designs; delivered a working MVP end to end as a contractor — Kakao login, PG payments, points, live raffle engine, community, admin. The wish-ranking home above is the shipped product.
 
 ### MARKET WHY — AI narration video pipeline
 
@@ -102,7 +108,7 @@ Runs headless on a schedule. Publishing stays a human decision.
 
 ### Mirirang — AI-character-first fortune app
 
-<img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%EB%AF%B8%EB%A6%AC%EB%9E%91_%E2%80%94_AI_%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B0%80_%EB%A8%BC%EC%A0%80_%EB%A7%90_%EA%B1%B0%EB%8A%94_%EC%82%AC%EC%A3%BC_%EC%95%B1__%EA%B8%B0%ED%9A%8D_97d4c953449f06e3bd54.jpeg" alt="Mirirang" width="720" />
+<img src="mirirang-app.png" alt="Mirirang" width="280" />
 
 A fortune-telling app where the AI character speaks first — planning, character design direction, and development in one hand.
 
@@ -168,7 +174,8 @@ A fortune-telling app where the AI character speaks first — planning, characte
 고객용(웹 전용·앱 전용)·벤더용·관리자용 **3종 앱을 전부 단독 개발**해 iOS·Android **양대 스토어에 정식 출시·운영 중**(심사·반려 대응·버전 배포까지 혼자). 5개 마이크로서비스를 쿠버네티스 무중단 운영. MongoDB Time Series + Redis, Playwright 시장 데이터 파이프라인, GPT-4o 뉴스 에이전트. 자체 LSTM 가격 예측 **MAPE 0.74% · 방향 정확도 88%** (GARCH·VAR·VECM·XGBoost 대비 우위). 주유소 POS·탱크 센서 동기화 Windows 에이전트. **디자이너 0명.** 기업 사이트 [oildealer.co.kr](https://oildealer.co.kr)도 직접 제작(블로그 연동, AI 에셋 파이프라인).
 
 **Hermes — AI 네이티브 사내 인프라** (매일 실사용 중)
-슬랙 상주 에이전트가 문서 자동 태깅→Notion 아카이빙, 업무 현황 리포트, 기획 티켓 전달→개발·배포→완료 보고→패치노트 생성 파이프라인을 운영합니다. Slack ↔ Notion ↔ Google ↔ CI/CD 연결. 판단은 사람이, 상태 관리는 에이전트가. 이 구조를 병원·투자회사의 AX 파이프라인으로 이식하는 업무를 수행 중입니다.
+슬랙이 회사의 운영체제입니다 — 비유가 아니라 실제 워크플로우입니다. 기획자가 채널에 요청을 올리면 에이전트가 스레드에서 접수를 확인하고, 문서는 자동 태깅돼 Notion에 아카이빙됩니다. 개발 진행은 티켓 번호·브랜치·커밋 해시 단위로 "코드로 확인" 보고되고, AI 개발 세션 봇이 [진행] 태그로 PR 머지→배포→테스트 통과를 공유한 뒤 [완료] 태그로 프로덕션 라이브 보고와 패치노트를 자동 생성해 기획자에게 돌려줍니다. 배포 URL·QA 결과 같은 남은 산출물은 사람이 아니라 에이전트가 먼저 챙깁니다. 채널도 목적별 설계: 기획↔개발 핸드오프 · 제품 스펙 · 운영 · 장애 등급 분리 · 고객사별 AX 전용 채널. 판단은 사람이, 상태 관리는 에이전트가.
+이 루프를 현재 두 곳의 AX(AI 전환)로 이식 중입니다: **병원** — 네이버·유튜브 공식 API 기반 마케팅 인텔리전스 수집(키워드·광고 소재·콘텐츠 트렌드, 의료광고 컴플라이언스 가드레일)과 **AI 인용 역추적 루프**(AI 어시스턴트가 인용하는 소스 추적 → 경쟁사만 인용되는 갭 발견 → 콘텐츠 처방 → 재측정), 그리고 **투자회사**(내부 운영 AX).
 
 **YieldCore — 온체인 RWA 채권 투자 프로토콜**
 USDC 예치 → 실물 채권 투자 구조의 Solidity 컨트랙트(프록시/비프록시), 대출 집행 24시간 타임락·멀티시그·역할 분리. Next.js 투자자 대시보드(TVL/APY·딜·포트폴리오)와 온체인 이벤트를 24/7 감시해 Slack으로 알리는 모니터링까지. 기업 사이트 [yieldcorelabs.com](https://yieldcorelabs.com)도 직접 제작(영문, Notion 연동 콘텐츠 파이프라인).
@@ -181,6 +188,8 @@ USDC 예치 → 실물 채권 투자 구조의 Solidity 컨트랙트(프록시/�
 **NNN — 텔레그램 × TON 게임파이 런치패드** 런치패드 백엔드(레이어 분리), TON 스마트컨트랙트, 텔레그램 미니앱 프론트, 파트너 게임 연동 API. 확률 테이블을 코드 밖으로 뺀 미스터리박스 엔진, 주간 리워드 자동 분배(실패 시 리커버리 경로 포함). 파트너 게임 신규 통합을 1일 내로 단축.
 
 **Penguinboard — 멀티 플랫폼 셀러 데이터 통합 B2B SaaS** 9개 커머스 플랫폼의 셀러 데이터를 통합하는 SaaS. **Chrome Extension(MV3) 수집 엔진** — XHR/Fetch 인터셉터, 세션 keep-alive, 실제 셀러 어드민 환경 검증.
+
+**OHTTO — 위시 기반 소셜 커머스 (외주 MVP 완주)** 기획·디자인 없는 상태에서 수주해 카카오 로그인·PG 결제·포인트·라이브 추첨 엔진·커뮤니티·어드민까지 동작하는 MVP를 계약부터 납품까지 완수했습니다.
 
 **MARKET WHY — AI 나레이션 영상 자동 제작 파이프라인** 대본 → TTS(SSML 제어) → **음성 실제 길이에 맞춰 씬 타이밍 자동 계산** → 자막 → 썸네일 → 발행 패키지. 대본이 바뀌어도 재렌더만 하면 싱크가 유지됩니다.
 
