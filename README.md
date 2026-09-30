@@ -18,9 +18,10 @@ What I do is design the thing behind the screen so it doesn't fall over — and 
 
 | | |
 |---|---|
-| <img src="https://cdn.wishket.com/portfolio/images/bitjaru_B2B_%EC%9C%A0%EB%A5%98_%EA%B3%B5%EA%B8%89%EB%A7%9D_%EC%97%AD%EA%B2%BD%EB%A7%A4_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95_%E2%80%94_%EA%B8%B0%ED%9A%8D%C2%B75%EA%B0%9C__dbf7c839cf7040cd0fee.png" alt="Oildealer" /> | <img src="https://opengraph.githubassets.com/1/bitjaru/styleseed" alt="styleseed" /> |
-| <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_RWA_%EC%8B%A4%EB%AC%BC%EC%9E%90%EC%82%B0_%EC%9C%A0%EB%8F%99%ED%99%94_DeFi_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95__Yiel_1c6e0d7792599eb6f021.jpeg" alt="YieldCore" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_Unity_%EA%B8%B0%EB%B0%98_Web3_%EA%B2%8C%EC%9E%84_%EA%B0%9C%EB%B0%9C_%EB%B0%8F_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%C2%B7LIN_d237c9c22d99b06ebda1.jpeg" alt="FANANAS" /> |
-| <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8_x_TON_%EA%B2%8C%EC%9E%84%ED%8C%8C%EC%9D%B4_%EB%9F%B0%EC%B9%98%ED%8C%A8%EB%93%9C_%EA%B5%AC%EC%B6%95__NNN__84053d79bb79de65b374.jpeg" alt="NNN" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%EB%A9%80%ED%8B%B0_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EC%85%80%EB%9F%AC_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%86%B5%ED%95%A9_B2B_SaaS_%EA%B5%AC%EC%B6%95___3981da0315be5888494c.jpeg" alt="Penguinboard" /> |
+| <a href="https://holtzman.yaylabs.io/"><img src="holtzman-landing.png" alt="HOLTZMAN hospital AX landing page" /></a> | <img src="https://cdn.wishket.com/portfolio/images/bitjaru_B2B_%EC%9C%A0%EB%A5%98_%EA%B3%B5%EA%B8%89%EB%A7%9D_%EC%97%AD%EA%B2%BD%EB%A7%A4_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95_%E2%80%94_%EA%B8%B0%ED%9A%8D%C2%B75%EA%B0%9C__dbf7c839cf7040cd0fee.png" alt="Oildealer" /> |
+| <img src="https://opengraph.githubassets.com/1/bitjaru/styleseed" alt="styleseed" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_RWA_%EC%8B%A4%EB%AC%BC%EC%9E%90%EC%82%B0_%EC%9C%A0%EB%8F%99%ED%99%94_DeFi_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95__Yiel_1c6e0d7792599eb6f021.jpeg" alt="YieldCore" /> |
+| <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_Unity_%EA%B8%B0%EB%B0%98_Web3_%EA%B2%8C%EC%9E%84_%EA%B0%9C%EB%B0%9C_%EB%B0%8F_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%C2%B7LIN_d237c9c22d99b06ebda1.jpeg" alt="FANANAS" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8_x_TON_%EA%B2%8C%EC%9E%84%ED%8C%8C%EC%9D%B4_%EB%9F%B0%EC%B9%98%ED%8C%A8%EB%93%9C_%EA%B5%AC%EC%B6%95__NNN__84053d79bb79de65b374.jpeg" alt="NNN" /> |
+| <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%EB%A9%80%ED%8B%B0_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EC%85%80%EB%9F%AC_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%86%B5%ED%95%A9_B2B_SaaS_%EA%B5%AC%EC%B6%95___3981da0315be5888494c.jpeg" alt="Penguinboard" /> | <img src="ohtto-app.png" alt="OHTTO" /> |
 
 ---
 
@@ -58,6 +59,14 @@ Slack is the company's operating system — not a metaphor, the actual daily wor
 a planner posts a request and the agent acknowledges it **in-thread** · documents get auto-tagged and archived into Notion · dev progress is reported at the level of **ticket numbers, branch names and commit hashes** ("verified in code", not "probably done") · the AI dev-session bot posts `[in-progress]` updates (PR merged → deploying → tests passing) and closes with `[done]` — production live, **patch notes auto-generated back to the planner** · missing artifacts (deploy URL, QA results) are chased by the agent, not by humans.
 Channels are designed on purpose: planning↔dev handoff · product specs · ops · alert severity tiers · **a dedicated channel per AX client**. Humans keep the decisions; the agent keeps the state.
 Now shipping the same loop externally as **AX (AI transformation) for two clients**: a **hospital** — marketing-intelligence pipeline on official Naver/YouTube APIs (keyword · ad-creative · content-trend collection with medical-ad compliance guardrails) plus an **AI-citation back-tracking loop** (trace which sources AI assistants cite → find gaps where competitors are cited and you aren't → prescribe content → re-measure) — and an **investment firm** (internal operations AX).
+
+### HOLTZMAN — hospital marketing AX platform and responsive landing
+
+<a href="https://holtzman.yaylabs.io/"><img src="holtzman-landing.png" alt="Live HOLTZMAN landing page with a metallic H visual and hospital marketing AX story" width="720" /></a>
+
+I planned, designed, built, and deployed the [public landing page](https://holtzman.yaylabs.io/) for YAYLABS' hospital marketing AX work. It takes a visitor from the hospital's operating problem through the data-to-action workflow, a field case, product screens, and a clear consultation path. The responsive page uses a distinct visual system, a large 3D H, and interactive examples; demo data is labeled and separated from real clinic accounts.
+
+Behind the public story, I built the data and AI workflow for revenue and advertising analysis, keyword planning, content production, AI-search visibility checks, and readable reports for hospital operators. The landing and the internal console serve different audiences; the live link shows the public experience, not a customer account.
 
 ### YieldCore — on-chain RWA bond investment protocol
 
@@ -168,6 +177,9 @@ A fortune-telling app where the AI character speaks first — planning, characte
 **AI를 파이프라인으로 씁니다** 수집 → 분석 → 렌더 → 발행 패키지 생성까지 에이전트가 자동으로 돌리되, **발행은 사람이 결정**하는 구조로 설계합니다.
 
 ### 주요 프로젝트
+
+**HOLTZMAN — 병원 마케팅 AX 플랫폼과 반응형 랜딩** [실제 화면](https://holtzman.yaylabs.io/) · [위시켓 포트폴리오](https://www.wishket.com/partners/p/bitjaru/portfolio/316317/)
+병원 매출·광고 데이터 분석, 키워드 운영, 콘텐츠 제작, AI 검색 노출 점검과 운영 보고를 잇는 도구를 직접 구축했습니다. 공개 랜딩은 방문자가 문제·업무 흐름·적용 사례·제품 예시를 이해하고 도입 문의까지 갈 수 있도록 기획·디자인·Next.js 개발·배포를 맡았습니다. 금속 H 비주얼과 반응형 화면, 직접 조작 가능한 예시를 적용했으며 데모 데이터와 실제 병원 계정은 구분해 표시합니다.
 
 **Oildealer — 에스크로 결제까지 갖춘 B2B 역경매 플랫폼** (혼자 구축, 양대 스토어 운영 중)
 서비스가 필요로 하는 거의 모든 것이 한 프로젝트에: **역경매 · 에스크로 · 커뮤니티 · ML 유가예측 · 모니터링 · 웹주문 · 고객앱 · 벤더앱 · 어드민**.
