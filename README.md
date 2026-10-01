@@ -18,10 +18,11 @@ What I do is design the thing behind the screen so it doesn't fall over — and 
 
 | | |
 |---|---|
-| <a href="https://holtzman.yaylabs.io/"><img src="holtzman-landing.png" alt="HOLTZMAN hospital AX landing page" /></a> | <img src="https://cdn.wishket.com/portfolio/images/bitjaru_B2B_%EC%9C%A0%EB%A5%98_%EA%B3%B5%EA%B8%89%EB%A7%9D_%EC%97%AD%EA%B2%BD%EB%A7%A4_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95_%E2%80%94_%EA%B8%B0%ED%9A%8D%C2%B75%EA%B0%9C__dbf7c839cf7040cd0fee.png" alt="Oildealer" /> |
-| <img src="https://opengraph.githubassets.com/1/bitjaru/styleseed" alt="styleseed" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_RWA_%EC%8B%A4%EB%AC%BC%EC%9E%90%EC%82%B0_%EC%9C%A0%EB%8F%99%ED%99%94_DeFi_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95__Yiel_1c6e0d7792599eb6f021.jpeg" alt="YieldCore" /> |
-| <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_Unity_%EA%B8%B0%EB%B0%98_Web3_%EA%B2%8C%EC%9E%84_%EA%B0%9C%EB%B0%9C_%EB%B0%8F_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%C2%B7LIN_d237c9c22d99b06ebda1.jpeg" alt="FANANAS" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8_x_TON_%EA%B2%8C%EC%9E%84%ED%8C%8C%EC%9D%B4_%EB%9F%B0%EC%B9%98%ED%8C%A8%EB%93%9C_%EA%B5%AC%EC%B6%95__NNN__84053d79bb79de65b374.jpeg" alt="NNN" /> |
-| <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%EB%A9%80%ED%8B%B0_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EC%85%80%EB%9F%AC_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%86%B5%ED%95%A9_B2B_SaaS_%EA%B5%AC%EC%B6%95___3981da0315be5888494c.jpeg" alt="Penguinboard" /> | <img src="ohtto-app.png" alt="OHTTO" /> |
+| <a href="https://yaylabs.io/"><img src="yaylabs-homepage.jpg" alt="YAYLABS corporate website with cobalt hero and interactive YAY CORE" /></a> | <a href="https://holtzman.yaylabs.io/"><img src="holtzman-landing.png" alt="HOLTZMAN hospital AX landing page" /></a> |
+| <img src="https://cdn.wishket.com/portfolio/images/bitjaru_B2B_%EC%9C%A0%EB%A5%98_%EA%B3%B5%EA%B8%89%EB%A7%9D_%EC%97%AD%EA%B2%BD%EB%A7%A4_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95_%E2%80%94_%EA%B8%B0%ED%9A%8D%C2%B75%EA%B0%9C__dbf7c839cf7040cd0fee.png" alt="Oildealer" /> | <img src="https://opengraph.githubassets.com/1/bitjaru/styleseed" alt="styleseed" /> |
+| <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_RWA_%EC%8B%A4%EB%AC%BC%EC%9E%90%EC%82%B0_%EC%9C%A0%EB%8F%99%ED%99%94_DeFi_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EA%B5%AC%EC%B6%95__Yiel_1c6e0d7792599eb6f021.jpeg" alt="YieldCore" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_Unity_%EA%B8%B0%EB%B0%98_Web3_%EA%B2%8C%EC%9E%84_%EA%B0%9C%EB%B0%9C_%EB%B0%8F_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%C2%B7LIN_d237c9c22d99b06ebda1.jpeg" alt="FANANAS" /> |
+| <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8_x_TON_%EA%B2%8C%EC%9E%84%ED%8C%8C%EC%9D%B4_%EB%9F%B0%EC%B9%98%ED%8C%A8%EB%93%9C_%EA%B5%AC%EC%B6%95__NNN__84053d79bb79de65b374.jpeg" alt="NNN" /> | <img src="https://cdn.wishket.com/portfolio/thumbnail/bitjaru_%EB%A9%80%ED%8B%B0_%ED%94%8C%EB%9E%AB%ED%8F%BC_%EC%85%80%EB%9F%AC_%EB%8D%B0%EC%9D%B4%ED%84%B0_%ED%86%B5%ED%95%A9_B2B_SaaS_%EA%B5%AC%EC%B6%95___3981da0315be5888494c.jpeg" alt="Penguinboard" /> |
+| <img src="ohtto-app.png" alt="OHTTO" /> | |
 
 ---
 
@@ -39,6 +40,12 @@ What I do is design the thing behind the screen so it doesn't fall over — and 
 ---
 
 ## Selected work
+
+### YAYLABS — corporate website and brand experience
+
+<a href="https://yaylabs.io/"><img src="yaylabs-homepage.jpg" alt="Live YAYLABS corporate homepage" width="720" /></a>
+
+I planned, designed, developed, and deployed the [YAYLABS corporate website](https://yaylabs.io/) as an in-house project. I organized our products and AX services around what a prospective client needs to understand, then built an interactive brand experience with the original YAY CORE, project case studies, five service pages, and a clear inquiry path. The site is responsive, with reduced-motion and WebGL fallbacks; essential content and contact options remain available without the animation. Search-facing pages and FAQs are server-rendered, with matching metadata and structured data. This is our own company site, not a client commission.
 
 ### Oildealer — escrow-backed B2B reverse-auction platform (built solo, live on both stores)
 
@@ -177,6 +184,9 @@ A fortune-telling app where the AI character speaks first — planning, characte
 **AI를 파이프라인으로 씁니다** 수집 → 분석 → 렌더 → 발행 패키지 생성까지 에이전트가 자동으로 돌리되, **발행은 사람이 결정**하는 구조로 설계합니다.
 
 ### 주요 프로젝트
+
+**YAYLABS 기업 홈페이지 리뉴얼 — 자사 프로젝트** [실제 화면](https://yaylabs.io/)
+회사에서 만든 제품과 AX 서비스를 방문자가 이해하고 문의할 수 있도록 정보 구조부터 기획하고, 비주얼 시스템·인터랙티브 3D 브랜드 오브젝트·반응형 화면·프로젝트 및 서비스 상세 페이지를 직접 디자인·개발·배포했습니다. 모션을 줄이거나 WebGL을 쓸 수 없는 환경에서도 핵심 내용과 문의 경로를 이용할 수 있게 구성했습니다. 고객사 납품이 아닌 자사 홈페이지 작업입니다.
 
 **HOLTZMAN — 병원 마케팅 AX 플랫폼과 반응형 랜딩** [실제 화면](https://holtzman.yaylabs.io/) · [위시켓 포트폴리오](https://www.wishket.com/partners/p/bitjaru/portfolio/316317/)
 병원 매출·광고 데이터 분석, 키워드 운영, 콘텐츠 제작, AI 검색 노출 점검과 운영 보고를 잇는 도구를 직접 구축했습니다. 공개 랜딩은 방문자가 문제·업무 흐름·적용 사례·제품 예시를 이해하고 도입 문의까지 갈 수 있도록 기획·디자인·Next.js 개발·배포를 맡았습니다. 금속 H 비주얼과 반응형 화면, 직접 조작 가능한 예시를 적용했으며 데모 데이터와 실제 병원 계정은 구분해 표시합니다.
